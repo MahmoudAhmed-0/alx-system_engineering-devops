@@ -1,2 +1,2 @@
 #!/bin/bash
-typeset +p
+typeset +p | cut -d' ' -f3 | tr -d '"'
