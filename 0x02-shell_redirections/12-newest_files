@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 ls -t1 | head -n 10
+=======
+find . -type f | sort -rn | head -n 10
+>>>>>>> c30ff29cea1f53f2c864b0ccba68df3fa546201c
